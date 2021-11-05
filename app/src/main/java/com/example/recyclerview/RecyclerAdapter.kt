@@ -68,7 +68,7 @@ class RecyclerAdapter: RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
 
             itemView.setOnClickListener{
                 val position: Int = adapterPosition
-                Toast.makeText(itemView.context, "Chapter ${titles[position]} was clicked!", Toast.LENGTH_LONG).show()
+                Toast.makeText(itemView.context, "Clicked ${titles[position]}!", Toast.LENGTH_LONG).show()
             }
         }
     }
